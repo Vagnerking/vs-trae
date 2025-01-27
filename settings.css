@@ -97,6 +97,10 @@
 .split-view-view.visible,
 .split-view-container {
 	background: #2b2d30;
+}
+
+.part.panel.basepanel.bottom.pane-composite-part {
+	margin-top: 0.25rem !important;
 	border-radius: 0.5rem !important;
 }
 
@@ -200,9 +204,6 @@ li.action-item.icon {
 	margin: 0 0.35rem 0 0.35rem;
 	border-radius: 0.5rem;
 	border-right: unset !important
-}
-
-.monaco-workbench .part > .title > .title-label {
 }
 
 .monaco-workbench
