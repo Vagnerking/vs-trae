@@ -71,8 +71,9 @@
 	border-color: #2b2d30;
 }
 
-.results>.monaco-list>.monaco-scrollable-element {
-	border-radius: 0.5rem;
+.results>.monaco-list>.monaco-scrollable-element,
+.results>.monaco-list>.monaco-scrollable-element>.monaco-list-rows {
+	border-radius: 0.5rem !important;
 }
 
 .monaco-list>.monaco-scrollable-element {
@@ -311,4 +312,14 @@ top: 0 !important;
 .monaco-icon-label:after {
 	font-size: 70% !important;
 	margin: 1px 16px 0 5px !important;
+}
+
+.monaco-findInput {
+	margin-left: 0.25rem;
+	border-radius: 0.5rem !important;
+}
+
+.monaco-editor .find-widget {
+	top: 12px !important;
+	border-radius: 0.5rem !important;
 }
