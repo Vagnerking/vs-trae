@@ -23,7 +23,7 @@ That's why i created this repo, which is using some VSCode extensions to make VS
 The CSS is specificly made for my personal use. It might not work correctly depending on your tabs positions. It's currently hard to develop some custom VSCode UI and make it work for all.
 
 ## Which OS do i need to use ?
-I tested only on MacOS. But i think any OS will work, you might need to adjust some settings or CSS depending on your OS. I will update the repo for Windows soon.
+I tested on MacOS (M1 Max & Intel) & Windows. But i think any OS will work, you might need to adjust some settings or CSS depending on your OS.
 
 ## The CSS is broken, what should i do ?
 Again, i only tested on my machine and on MacOS. You might need to adjust some css settings to your likings (`settings.css`).
