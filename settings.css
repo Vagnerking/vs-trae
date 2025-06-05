@@ -310,8 +310,8 @@ div#terminal {
 }
 
 .quick-input-widget {
-  transform: translateY(-50%) !important;
-  top: 50% !important;
+  top: 20% !important;
+  transform: none !important;
   z-index: 100;
   border: solid 2px #ffffff2d !important;
   border-radius: 12px !important;
