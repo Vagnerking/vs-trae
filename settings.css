@@ -16,7 +16,7 @@
   > .title
   .tabs-container
   > .tab {
-  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+  border-radius: 0.25rem 0.25rem 0.25rem 0.25rem;
   background-color: #1c1c1c !important;
   padding-right: none !important;
   border-right: none !important;
@@ -72,10 +72,22 @@
   height: 0;
 }
 
+.monaco-scrollable-element>.scrollbar>.slider {
+  border-radius: 0.5rem !important;
+}
+
+.monaco-scrollable-element>.scrollbar.vertical>.slider {
+  border-radius: 0.5rem !important;
+}
+
+.monaco-scrollable-element>.scrollbar.horizontal>.slider {
+  border-radius: 0.5rem !important;
+}
+
 .breadcrumbs-below-tabs {
   border-radius: 0.5rem 0.5rem 0 0;
-  overflow: hidden;
-  padding: 9px 0;
+  overflow: clip;
+  margin-top: -1rem;
   background: #1c1c1c;
 }
 
@@ -92,21 +104,18 @@
 }
 
 .monaco-editor .sticky-widget {
-  border-color: #2b2d30;
+  border-color: #24262b;
 }
 
 .results > .monaco-list > .monaco-scrollable-element,
 .results > .monaco-list > .monaco-scrollable-element > .monaco-list-rows {
-  border-radius: 0.5rem !important;
+  border-radius: 0.25rem !important;
 }
 
 .monaco-list > .monaco-scrollable-element {
-  border-radius: 0 0 0.5rem 0.5rem;
+  border-radius: 0 0 0.25rem 0.25rem;
 }
 
-.tabs-and-actions-container:has(.tab.active:first-child) {
-  /* box-shadow: -20px 5px 0 0 #1c1c1c; */
-}
 .extensions-viewlet > .extensions .message-container {
   padding: unset !important;
 }
@@ -115,7 +124,7 @@
 .monaco-workbench .part.editor > .content .editor-group-container .active,
 .monaco-workbench .part.editor > .content .editor-group-container {
   border-radius: 0.5rem;
-  overflow: hidden;
+  overflow: clip;
 }
 
 .split-view-view.visible,
@@ -149,7 +158,7 @@
   > .window-title
   > .command-center
   .action-item.command-center-center {
-  border-radius: 5rem;
+  border-radius: 2.5rem;
   border: none;
 }
 
@@ -310,13 +319,13 @@ div#terminal {
 }
 
 .quick-input-widget {
-  transform: translateY(-50%) !important;
-  top: 50% !important;
+  top: 20% !important;
+  transform: none !important;
   z-index: 100;
-  border: solid 2px #ffffff2d !important;
-  border-radius: 12px !important;
+  border: solid 2px #ffffff2f !important;
+  border-radius: 8px !important;
   box-shadow: none !important;
-  font-size: 24px !important;
+  font-size: 18px !important;
   box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.45) !important;
 }
 
@@ -336,11 +345,11 @@ div#terminal {
 
 /* Command palette text input */
 .quick-input-filter .monaco-inputbox {
-  border-radius: 12px !important;
-  padding: 12px !important;
-  border: none !important;
-  background-color: rgba(34, 34, 34, 0.4) !important;
-  font-size: 20px !important;
+  border-radius: 6px !important;
+  padding: 0px !important;
+  border: solid 1px #ffffff24 !important;
+  background-color: #ffffff20 !important;
+  font-size: 16px !important;
   margin-bottom: 16px !important;
 }
 
